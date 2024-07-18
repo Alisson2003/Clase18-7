@@ -26,8 +26,8 @@ public class Main {
             String sql="UPDATE estudiantes SET b1=? WHERE cedula=?";
             pstmt=conn.prepareStatement(sql);
             //seteamos lso valores de la sentencia previa
-            pstmt.setInt(1,100);
-            pstmt.setString(2,"1726195207");
+            pstmt.setInt(1,19);
+            pstmt.setString(2,"0055296473");
             System.out.println(sql);
             int n=pstmt.executeUpdate();
             System.out.println("se modificaron:"+n+"lineas");
